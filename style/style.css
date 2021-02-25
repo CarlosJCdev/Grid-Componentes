@@ -8,8 +8,6 @@ body {
     display: grid;
     grid-template: repeat(10, 1fr) / repeat(10, 1fr);
     height: 100vh;
-    column-gap: 5px;
-    row-gap: 5px;
 }
 
 .menu {
