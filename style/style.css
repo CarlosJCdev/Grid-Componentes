@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    height: 100vh;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.menu {
+    background: rgb(39, 38, 38);
+    grid-column: 1 / 11;
+}
+
+.categories {
+    background: blue;
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+}
+
+.list {
+    background: brown;
+    grid-column: 1 / 3;
+    grid-row: 4 / 11;
+}
+
+.top {
+    background: chartreuse;
+    grid-column: 3 / 11;
+    grid-row: 2 / 5;
+}
+
+.design {
+    background: cyan;
+    grid-column: 3 / 11;
+    grid-row: 5 / 8;
+}
+
+.programming {
+    background: chocolate;
+    grid-column: 3 / 11;
+    grid-row: 8 / 11;
+}
