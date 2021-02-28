@@ -56,6 +56,15 @@ body {
     align-items: center;
 }
 
+.git {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 3px;
+    background: url(../assets/Recurso\ 1.svg) center / cover no-repeat;
+}
+
 .Programming {
     background: cornflowerblue;
     grid-column: 1 / 4;
