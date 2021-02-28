@@ -11,8 +11,8 @@ body {
 
 :root {
     --Navbar: #2c303a;
-    --footer: rgb(27, 25, 25);
-    --color1: tomato;
+    --footer: #1B1919;
+    --color1: #ff6347;
     --color2: yellowgreen;
     --color3: #4464a4;
     --color4: red;
@@ -50,7 +50,7 @@ body {
 }
 
 .Design {
-    background: tomato;
+    background: var(--footer);
     grid-column: 1 / 4;
     grid-row: 1 / 2;
     align-items: center;
@@ -99,7 +99,7 @@ body {
 }
 
 .Node {
-    background: yellow;
+    background: var(--Navbar);
     grid-column: 1 / 4;
     grid-row: 9 / 10;
 }
@@ -114,6 +114,8 @@ body {
 }
 
 .footer {
+    display: grid;
+    grid-template: repeat(1, 1fr) / 50px repeat(9, 1fr);
     background: var(--footer);
     grid-column: 1 / 11;
     grid-row: 11 / 12;
@@ -166,7 +168,7 @@ body {
 
 ::-webkit-scrollbar-track {
     /*Carril de la barra */
-    animation: colores 5s ease-in-out infinite;
+    background: var(--Navbar);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -176,10 +178,10 @@ body {
 @keyframes colores {
     0%,
     100% {
-        background-color: tomato;
+        background-color: #ff6347;
     }
     40% {
-        background-color: yellowgreen;
+        background-color: #9acd32;
     }
     80% {
         background-color: #4464a4;
