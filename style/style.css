@@ -10,7 +10,16 @@ body {
 }
 
 :root {
-    --Navbar: rgb(27, 25, 25);
+    --Navbar: #2c303a;
+    --footer: rgb(27, 25, 25);
+    --color1: tomato;
+    --color2: yellowgreen;
+    --color3: #4464a4;
+    --color4: red;
+    --color5: chocolate;
+    --color6: crimson;
+    --color7: seagreen;
+    --color8: yellow;
     --black: #352d2d;
     --white: white;
 }
@@ -105,7 +114,7 @@ body {
 }
 
 .footer {
-    background: khaki;
+    background: var(--footer);
     grid-column: 1 / 11;
     grid-row: 11 / 12;
 }
@@ -137,6 +146,31 @@ body {
 
 .elements {
     text-align: center;
+}
+
+
+/*-------------------------------SPECIAL STYLE-------------------------------*/
+
+
+/* -webkit-scrollbar el elemento que envuelve al conjunto
+-webkit-scrollbar-button la barra y los botones
+-webkit-scrollbar-track el carril de la barra
+-webkit-scrollbar-track-piece la parte interna del carril de la barra
+-webkit-scrollbar-thumb la almohadilla de la barra, o la barra en sí misma, como prefieras llamarle
+-webkit-scrollbar-corner la esquina inferior derecha
+-webkit-resize la esquina inferior derecha cuando el elemento es redimensionable*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    /*Carril de la barra */
+    animation: colores 5s ease-in-out infinite;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--footer);
 }
 
 @keyframes colores {
