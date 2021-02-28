@@ -56,15 +56,6 @@ body {
     align-items: center;
 }
 
-.git {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 3px;
-    background: url(../assets/Recurso\ 1.svg) center / cover no-repeat;
-}
-
 .Programming {
     background: cornflowerblue;
     grid-column: 1 / 4;
@@ -84,7 +75,7 @@ body {
 }
 
 .CSS {
-    background: white;
+    background: rgb(44, 16, 16);
     grid-column: 1 / 4;
     grid-row: 5 / 6;
 }
@@ -157,6 +148,63 @@ body {
 
 .elements {
     text-align: center;
+}
+
+
+/*------------------------------ICONOS en BARA LATERAL------------------------------- */
+
+.git {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 3px;
+    background: url(../assets/Recurso\ 1.svg) center / cover no-repeat;
+}
+
+.development {
+    display: inline-block;
+    width: 39px;
+    height: 35px;
+    margin-top: 11px;
+    margin-left: 5px;
+    background: url(../assets/Recurso\ 2.svg) center / cover no-repeat;
+}
+
+.github {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background: url(../assets/Recurso\ 3.svg) center / cover no-repeat;
+}
+
+.html {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background: url(../assets/Recurso\ 4.svg) center / cover no-repeat;
+}
+
+.css {
+    display: inline-block;
+    width: 40px;
+    height: 37px;
+    margin-top: 10px;
+    margin-left: 4px;
+    background: url(../assets/Recurso\ 5.svg) center / cover no-repeat;
+}
+
+.angular {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background: url(../assets/Recurso\ 6.svg) center / cover no-repeat;
 }
 
 
