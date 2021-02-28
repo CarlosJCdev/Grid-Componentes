@@ -9,3 +9,5 @@
 -Generación de BreakPoints para el diseño responsivo.
 
 ### Diseño Grid:
+![](https://raw.githubusercontent.com/CarlosJCdev/Web-Grid/master/assets/Structure.JPG)
+
