@@ -12,16 +12,23 @@ body {
 :root {
     --Navbar: #2c303a;
     --footer: #1B1919;
-    --color1: #ff6347;
-    --color2: #9acd32;
-    --color3: #4464a4;
-    --color4: red;
-    --color5: chocolate;
-    --color6: crimson;
-    --color7: seagreen;
-    --color8: yellow;
-    --black: #352d2d;
-    --white: white;
+    --color1: #050505;
+    --color2: #212121;
+    --color3: #3e3e3e;
+    --color4: #595959;
+    --color5: #3e3e3e;
+    --color6: #212121;
+    --color7: #050505;
+    --color8: #110F0F;
+    --color9: #161414;
+    /*----------HOVER---------- */
+    --hover-design: #4464a4;
+    --hover-programming: #de4c36;
+    --hover-github: #00d8ff;
+    --hover-html: #c3002f;
+    --hover-css: #c7b31a;
+    --hover-angular: #ff6347;
+    --hover-react: #9acd32;
 }
 
 .menu {
@@ -44,62 +51,61 @@ body {
 .categories {
     display: grid;
     grid-template: repeat(9, 1fr) / repeat(2, 1fr);
-    background: #141212;
     grid-column: 1 / 2;
     grid-row: 2 / 11;
 }
 
 .Design {
-    background: var(--footer);
+    background: var(--color1);
     grid-column: 1 / 4;
     grid-row: 1 / 2;
     align-items: center;
 }
 
 .Programming {
-    background: cornflowerblue;
+    background: var(--color2);
     grid-column: 1 / 4;
     grid-row: 2 / 3;
 }
 
 .Github {
-    background: red;
+    background: var(--color3);
     grid-column: 1 / 4;
     grid-row: 3 / 4;
 }
 
 .HTML {
-    background: chocolate;
+    background: var(--color4);
     grid-column: 1 / 4;
     grid-row: 4 / 5;
 }
 
 .CSS {
-    background: rgb(44, 16, 16);
+    background: var(--color5);
     grid-column: 1 / 4;
     grid-row: 5 / 6;
 }
 
 .Angular {
-    background: var(--color2);
+    background: var(--color6);
     grid-column: 1 / 4;
     grid-row: 6 / 7;
 }
 
 .React {
-    background: cyan;
+    background: var(--color7);
     grid-column: 1 / 4;
     grid-row: 7 / 8;
 }
 
 .Test {
-    background: seagreen;
+    background: var(--color8);
     grid-column: 1 / 4;
     grid-row: 8 / 9;
 }
 
 .Node {
-    background: var(--Navbar);
+    background: var(--color9);
     grid-column: 1 / 4;
     grid-row: 9 / 10;
 }
@@ -151,18 +157,58 @@ body {
 }
 
 
+/*---------------------------HOVER------------------------- */
+
+.Design:hover {
+    background: var(--hover-design);
+}
+
+.Programming:hover {
+    background: var(--hover-programming);
+}
+
+.Github:hover {
+    background: var(--hover-github);
+}
+
+.HTML:hover {
+    background: var(--hover-html);
+}
+
+.CSS:hover {
+    background: var(--hover-css);
+}
+
+.Angular:hover {
+    background: var(--hover-angular);
+}
+
+.React:hover {
+    background: var(--hover-react);
+}
+
+
 /*------------------------------ICONOS en BARA LATERAL------------------------------- */
 
 .git {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 3px;
-    background: url(../assets/Recurso\ 1.svg) center / cover no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 9px;
+    background: url(../assets/Recurso\ 10.svg) center / cover no-repeat;
 }
 
 .development {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background: url(../assets/Recurso\ 1.svg) center / cover no-repeat;
+}
+
+.github {
     display: inline-block;
     width: 39px;
     height: 35px;
@@ -171,7 +217,7 @@ body {
     background: url(../assets/Recurso\ 2.svg) center / cover no-repeat;
 }
 
-.github {
+.html {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -180,7 +226,7 @@ body {
     background: url(../assets/Recurso\ 3.svg) center / cover no-repeat;
 }
 
-.html {
+.css {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -189,16 +235,16 @@ body {
     background: url(../assets/Recurso\ 4.svg) center / cover no-repeat;
 }
 
-.css {
+.angular {
     display: inline-block;
     width: 40px;
     height: 37px;
     margin-top: 10px;
-    margin-left: 4px;
+    margin-left: 5px;
     background: url(../assets/Recurso\ 5.svg) center / cover no-repeat;
 }
 
-.angular {
+.react {
     display: inline-block;
     width: 40px;
     height: 40px;
