@@ -195,7 +195,8 @@ body {
     display: inline-block;
     width: 30px;
     height: 30px;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 9px;
     background: url(../assets/Recurso\ 10.svg) center / cover no-repeat;
 }
@@ -205,6 +206,7 @@ body {
     width: 40px;
     height: 40px;
     margin-top: 10px;
+    margin-bottom: 7px;
     margin-left: 5px;
     background: url(../assets/Recurso\ 1.svg) center / cover no-repeat;
 }
@@ -214,6 +216,7 @@ body {
     width: 39px;
     height: 35px;
     margin-top: 11px;
+    margin-bottom: 8px;
     margin-left: 5px;
     background: url(../assets/Recurso\ 2.svg) center / cover no-repeat;
 }
@@ -223,6 +226,7 @@ body {
     width: 40px;
     height: 40px;
     margin-top: 10px;
+    margin-bottom: 5px;
     margin-left: 5px;
     background: url(../assets/Recurso\ 3.svg) center / cover no-repeat;
 }
@@ -232,6 +236,7 @@ body {
     width: 40px;
     height: 40px;
     margin-top: 10px;
+    margin-bottom: 5px;
     margin-left: 5px;
     background: url(../assets/Recurso\ 4.svg) center / cover no-repeat;
 }
@@ -241,6 +246,7 @@ body {
     width: 40px;
     height: 37px;
     margin-top: 10px;
+    margin-bottom: 5px;
     margin-left: 5px;
     background: url(../assets/Recurso\ 5.svg) center / cover no-repeat;
 }
@@ -250,6 +256,7 @@ body {
     width: 40px;
     height: 40px;
     margin-top: 10px;
+    margin-bottom: 5px;
     margin-left: 5px;
     background: url(../assets/Recurso\ 6.svg) center / cover no-repeat;
 }
