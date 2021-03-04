@@ -146,7 +146,7 @@ body {
     margin: 10px 20px 3px 20px;
 }
 
-.info-contact>p {
+#email {
     font-size: 1rem;
     font-family: 'popins', sans-serif;
     color: var(--color10);
@@ -156,14 +156,21 @@ body {
 .info-links {
     grid-column: 5 / 8;
     grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-links>a {
     color: var(--color10);
+    font-size: 1.5rem;
+    font-family: 'popins', sans-serif;
 }
 
 .fa-github {
     background: url(../assets/github.svg) center / cover no-repeat;
+    width: 10px;
+    height: 10px;
 }
 
 .info-Social-Network {
@@ -174,18 +181,33 @@ body {
 .info-Social-Network>ul {
     display: flex;
     justify-content: flex-end;
+    color: var(--color10);
 }
 
 .info-Social-Network>ul>li {
     padding: 0 10px;
+    font-size: 1rem;
+    font-family: 'popins', sans-serif;
+    list-style-type: none;
 }
 
-.info-Social-Network>span {
-    margin-top: 5px;
+.info-Social-Network>ul>li>span {
+    position: static;
     display: flex;
     justify-content: flex-end;
-    font: 0.9rem;
     color: var(--color10);
+    font-size: 1rem;
+    font-family: 'popins', sans-serif;
+}
+
+.copy {
+    margin-top: 6px;
+}
+
+.flag {
+    background: url(../assets/flag-mx.png)center / cover no-repeat;
+    width: 30px;
+    height: 30px;
 }
 
 
