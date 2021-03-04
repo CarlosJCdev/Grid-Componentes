@@ -5,6 +5,7 @@ class LateralBarr extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <header class="Design">
+        <span class="tooltiptext">Home</span>
         <a href="index.html">
             <span class="git"></span>
         </a>

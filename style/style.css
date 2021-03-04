@@ -297,6 +297,25 @@ body {
     background: url(../assets/Recurso\ 10.svg) center / cover no-repeat;
 }
 
+.Design .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: var(--color9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 72px;
+    left: 52px;
+}
+
+.Design:hover .tooltiptext {
+    visibility: visible;
+}
+
 .development {
     display: inline-block;
     width: 40px;
