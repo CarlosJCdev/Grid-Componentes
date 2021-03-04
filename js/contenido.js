@@ -1,7 +1,6 @@
 class ContentMain extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-       
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quis animi consequatur, totam laboriosam voluptates sequi natus officia dolore id.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus quas in praesentium facere ratione, dolores reprehenderit fugit vel modi vero illum accusantium pariatur nesciunt aut eius aliquam est aperiam? Magnam reiciendis officiis eos
             consectetur itaque aspernatur vitae nemo illo eligendi velit sit corrupti deserunt natus, consequatur sapiente similique totam.</p>
