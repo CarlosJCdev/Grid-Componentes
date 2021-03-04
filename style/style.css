@@ -150,7 +150,7 @@ body {
     font-size: 1rem;
     font-family: 'popins', sans-serif;
     color: var(--color10);
-    margin: 3px 20px 15px 50px
+    margin: 3px 20px 15px 23px
 }
 
 .info-links {
@@ -167,10 +167,21 @@ body {
     font-family: 'popins', sans-serif;
 }
 
-.fa-github {
+.social-git {
     background: url(../assets/github.svg) center / cover no-repeat;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
+    color: var (-color10);
+    margin-right: 5px;
+}
+
+.social-link {
+    background: url(../assets/linkeding.svg) center / cover no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-left: 10px;
+    color: var (-color10);
 }
 
 .info-Social-Network {
