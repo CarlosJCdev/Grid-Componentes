@@ -9,4 +9,8 @@ var firebaseConfig = {
 };
 firebaseConfig.initializeApp(firebaseConfig);
 
-const db = firebase.firestore();
+var data = firebase.database();
+var message = data.ref('message');
+message.once('value').then(function(nap) {
+    console.log(nap);
+});
